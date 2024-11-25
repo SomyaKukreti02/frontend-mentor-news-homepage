@@ -34,7 +34,29 @@
             <li>Categories</li>
           </ul>
         </div>
+        <div id="ham-box" onclick="toogleSidebar()">
+          <img src="assets/images/icon-menu.svg" alt="ham" />
+        </div>
       </nav>
+      <div id="sidebar-nav">
+        <div id="sidebar-nav-links">
+          <div id="close-sidebar" onclick="toogleSidebar()">
+            <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+              <g fill="hsl(233, 8%, 79%)" fill-rule="evenodd">
+                <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+                <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+              </g>
+            </svg>
+          </div>
+          <ul>
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+          </ul>
+        </div>
+      </div>
       <div class="container" id="hero-container">
         <section>
           <img src="assets/images/image-web-3-desktop.jpg" alt="hero" />
@@ -101,12 +123,13 @@
         </div>
       </section>
 
-      <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Somya Kukreti</a>.
+      </div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
